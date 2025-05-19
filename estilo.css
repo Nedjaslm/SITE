@@ -1,7 +1,11 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Concert One', sans-serif; 
   background-color: lightblue;
   color: #333;
   margin: 0;
   padding: 20px;
+}
+
+h1 {
+  font-family: 'Concert One', sans-serif; 
 }
