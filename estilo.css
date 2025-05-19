@@ -1,13 +1,15 @@
 body {
   font-family: 'Concert One', sans-serif; 
   background-color: rgb(129, 185, 203);
-  color: #ffffff;
+  color: #003379f9;
   margin: 0;
   padding: 20px;
 }
 
 h1 {
-    font-size: 30px;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -17,4 +19,60 @@ h1 {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lista */
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Botão */
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
 }
