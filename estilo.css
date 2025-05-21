@@ -70,7 +70,7 @@ input [type="radio"]:checked + label {
 
 button {
 
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 12px 25px;
     background-color: #9370db;
     border: none;
@@ -78,6 +78,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+    
 
 }
 
