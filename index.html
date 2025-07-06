@@ -3,51 +3,39 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HUMÚSICA</title>
+    <title>LOGIN</title>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container"> 
-        <img src="https://pin.it/4ApXrEzNH" alt="Música e Emoções" width="100">
-        <h1>Escolha o seu humor</h1>
-        <p>E deixe ele escolher a música hoje! 😉</p>
-    
-        <ul class="demo">
-            <li>Feliz: músicas animadas</li>
-            <li>Animado: músicas alto-astral</li>
-            <li>Triste: músicas calmas e melancólicas</li>
-            <li>Cansado: Sons relaxantes</li>
-            <li>Estudando: Lo-fi e Música clássica</li>
-        </ul>
 
-        <form>
-            <div class="humores">
-                <input type="radio" id="feliz" name="humor" value="feliz">
-                <label for="feliz">Feliz</label>
+<div class="container">
+        <div class="card">
+            <h1>Login</h1>
+            <form id="form-login">
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                        <input type="text" id="email" placeholder="Nome do usuário" required>
+                        </div>
 
-                <input type="radio" id="animado" name="humor" value="triste">
-                <label for="animado">Animado</label>
-
-                <input type="radio" id="triste" name="humor" value="triste">
-                <label for="triste">Triste</label>
-
-                <input type="radio" id="cansado" name="humor" value="cansado">
-                <label for="cansado">Cansado</label> 
-
-                <input type="radio" id="estudando" name="humor" value="estudando">
-                <label for="estudando">Estudando</label>
-
-
+                        <div class="input-group">
+                            <label for="password">Senha</label>
+                            <input type="password" id="password" name="senha" placeholder="Digite sua senha" required>
+                        </div>
+                         <a href="#" class="Esqueceu-senha">Esqueceu a Senha?</a>
+                        
+                        <button type="submit">Entrar</button>
+           </form>
+           <div class="Cadastro">
+            <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+           </div>
             </div>
+        </div>
 
-            <button type="submit">Acessar Playlist</button>
-
-        </form>
-
-
-    </div>
+        <script src="script.js" defer></script>
+    
 </body>
 
 </html>
+
