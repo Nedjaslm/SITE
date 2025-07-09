@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 triste: 'https://open.spotify.com/playlist/35V3ZpspucNggeY5651fzR?si=BxiRRLq0Qu-_s1KjxZZ-QA',
                 animado: 'https://open.spotify.com/playlist/2MaQY2EHmehh2X8ADMtf42?si=lt_LgR9aQi6T1OKyamR5KA',
                 estudando: 'https://open.spotify.com/playlist/64NuFJ9iSdev7z9Z4sYA5c?si=kIvHKMH6RZiLuUvfZViN_w',
-                cansado: 'https://open.spotify.com/playlist/4Lw6TUrPoiQkTjXE46J8cD?si=-otsx8eRQwqK-3opuqfW-w'
+                cansado: 'https://open.spotify.com/playlist/37i9dQZF1DWSADWNdZfn11?si=k4TScPQsQhi-tiXhAL4F9A'
             };
 
             const url = playlists[mood];
