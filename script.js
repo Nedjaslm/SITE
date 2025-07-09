@@ -96,11 +96,11 @@ document.addEventListener('DOMContentLoaded', () => {
             
             
             const playlists = {
-                feliz: 'https://www.youtube.com/playlist?list=PL4o29bINVT4EG_y-k5jGoOu3-Am8v2_4k',
-                triste: 'https://www.youtube.com/playlist?list=PL4o29bINVT4F2s3D3z2ann_m_bA1c0o5g',
-                animado: 'https://www.youtube.com/playlist?list=PL4o29bINVT4H8pP_1Gk2Yt_2-AhfjAn-i',
-                estudando: 'https://www.youtube.com/playlist?list=PL4o29bINVT4E3o9Y2eGj_H-3a3qW9AIa8',
-                cansado: 'https://www.youtube.com/playlist?list=PL4o29bINVT4E3o9Y2eGj_H-3a3qW9AIa8'
+                feliz: 'https://open.spotify.com/playlist/5ntQTxst8llLHNdpmRHo2p?si=_DOC7HIBRyKF8wa7iK9fYw',
+                triste: 'https://open.spotify.com/playlist/35V3ZpspucNggeY5651fzR?si=BxiRRLq0Qu-_s1KjxZZ-QA',
+                animado: 'https://open.spotify.com/playlist/2MaQY2EHmehh2X8ADMtf42?si=lt_LgR9aQi6T1OKyamR5KA',
+                estudando: 'https://open.spotify.com/playlist/64NuFJ9iSdev7z9Z4sYA5c?si=kIvHKMH6RZiLuUvfZViN_w',
+                cansado: 'https://open.spotify.com/playlist/4Lw6TUrPoiQkTjXE46J8cD?si=-otsx8eRQwqK-3opuqfW-w'
             };
 
             const url = playlists[mood];
